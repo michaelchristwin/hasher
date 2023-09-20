@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: dmsansbold; /* Choose a name for your font */
+  src: url("./assets/dmsans/DMSans-Bold.ttf"); /* Replace with the URL to your font file */
+}
+
+@font-face {
+  font-family: dmsans; /* Choose a name for your font */
+  src: url("./assets/dmsans/DMSans-Regular.ttf"); /* Replace with the URL to your font file */
+}
+
+body {
+  font-family: dmsans;
+}
+.dmsansbold {
+  font-family: dmsansbold;
+}
