@@ -43,25 +43,28 @@ function App() {
     <div
       className={`w-full h-[100vh] flex justify-center items-center bg-[#202124] text-white`}
     >
-      <form className="w-[30%] h-[400px] block" onSubmit={handleSubmit}>
+      <form
+        className="lg:w-[30%] w-[250px] h-[400px] block"
+        onSubmit={handleSubmit}
+      >
         <h1
-          className={`text-center text-purple-700 text-[35px] font-extrabold dmsansbold`}
+          className={`text-center text-purple-700 lg:text-[35px] text-[28px] font-extrabold dmsansbold`}
         >
           SPIRIT ANIMALS🐶
         </h1>
-        <fieldset className={`space-y-2 w-[350px] block mx-auto`}>
+        <fieldset className={`space-y-2 lg:w-[350px] w-[250px] block mx-auto`}>
           <input
             id="name"
             value={name}
             onChange={handleNameChange}
             type="text"
-            className="h-[50px] w-[350px] ps-5 focus:outline-none rounded-[50px] block mx-auto bg-transparent
+            className="h-[50px] lg:w-[350px] w-[250px] ps-5 focus:outline-none rounded-[50px] block mx-auto bg-transparent
            border border-[#474a4e]"
           />
         </fieldset>
 
         <fieldset
-          className={`w-[350px] flex justify-center space-x-5 items-center mx-auto mt-4 `}
+          className={`lg:w-[350px] w-[250px] flex justify-center space-x-5 items-center mx-auto mt-4 `}
         >
           <select
             name="separator"
@@ -95,7 +98,7 @@ function App() {
         >
           Convert
         </button>
-        <div className="block mx-auto w-[400px]">
+        <div className="block mx-auto w-[250px] lg:w-[400px]">
           <div className={`flex space-x-3 mt-6 justify-center`}>
             <p
               className={`font-extrabold italic text-[20px] block text-green-600`}
